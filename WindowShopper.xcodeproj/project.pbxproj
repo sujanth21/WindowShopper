@@ -13,6 +13,7 @@
 		83E1698E1F349071001CA95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E1698D1F349071001CA95F /* Assets.xcassets */; };
 		83E169911F349071001CA95F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E1698F1F349071001CA95F /* LaunchScreen.storyboard */; };
 		83E1699B1F349389001CA95F /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1699A1F349389001CA95F /* CurrencyTxtField.swift */; };
+		83E1699E1F34B1B9001CA95F /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E1699D1F34B1B9001CA95F /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		83E169901F349071001CA95F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E169921F349071001CA95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E1699A1F349389001CA95F /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+		83E1699D1F34B1B9001CA95F /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		83E169851F349071001CA95F /* WindowShopper */ = {
 			isa = PBXGroup;
 			children = (
+				83E1699C1F34B1A4001CA95F /* Model */,
 				83E169991F3492DE001CA95F /* Views */,
 				83E169981F3492CC001CA95F /* Controller */,
 				83E169861F349071001CA95F /* AppDelegate.swift */,
@@ -81,6 +84,14 @@
 				83E1699A1F349389001CA95F /* CurrencyTxtField.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		83E1699C1F34B1A4001CA95F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83E1699D1F34B1B9001CA95F /* Wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E1699B1F349389001CA95F /* CurrencyTxtField.swift in Sources */,
+				83E1699E1F34B1B9001CA95F /* Wage.swift in Sources */,
 				83E169891F349071001CA95F /* MainVC.swift in Sources */,
 				83E169871F349071001CA95F /* AppDelegate.swift in Sources */,
 			);
